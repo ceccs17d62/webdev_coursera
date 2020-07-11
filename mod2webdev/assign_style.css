@@ -1,0 +1,35 @@
+<style>
+p{
+	color: red;
+	background-color: yellow;
+}
+.row{
+	width: 100%
+}
+@media (min-width: 992px)
+{
+		float: left;
+		border: 2px blue;
+	.cl-lrg1
+	{
+		width: 33%
+	}
+
+}
+@media (min-width: 991px) and (max-width: 768px)
+{
+	float: left;
+		border: 2px blue;
+	.cl-mid1{
+		width: 50%
+	}
+}
+@media (max-width: 767px)
+{
+	float: left;
+		border: 2px blue;
+	.cl-mid1{
+		width: 100%
+	}
+}
+</style>
